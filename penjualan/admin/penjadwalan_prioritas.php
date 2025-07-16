@@ -39,8 +39,8 @@ function normalisasiWP($waktu) {
 }
 function hitungPrioritas($jumlah, $status, $waktu) {
     $w1 = 0.5; // Bobot jumlah pesanan
-    $w2 = 0.2; // Bobot status bayar
-    $w3 = 0.3; // Bobot waktu pemesanan
+    $w2 = 0.3; // Bobot status bayar
+    $w3 = 0.2; // Bobot waktu pemesanan
     $jp = normalisasiJP($jumlah);
     $sp = normalisasiSP($status);
     $wp = normalisasiWP($waktu);
